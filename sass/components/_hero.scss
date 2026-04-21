@@ -38,12 +38,13 @@
     &__service{
         display: flex;
         gap: 40px;
-        article{
+        article a{
             display: flex;
             justify-content: center;
             align-items: center;
             max-width: 190px;
             gap: 16px;
+            text-decoration: none;
             p{
                 color: white;
                 font-size: 18px;

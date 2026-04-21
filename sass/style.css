@@ -74,14 +74,15 @@
   display: flex;
   gap: 40px;
 }
-.hero__service article {
+.hero__service article a {
   display: flex;
   justify-content: center;
   align-items: center;
   max-width: 190px;
   gap: 16px;
+  text-decoration: none;
 }
-.hero__service article p {
+.hero__service article a p {
   color: white;
   font-size: 18px;
   font-weight: 600;
@@ -165,4 +166,4 @@ body {
   background-position: bottom -170px right -50px;
   background-repeat: no-repeat;
   background-size: 53%;
-}/*# sourceMappingURL=style.css.map */
+}
