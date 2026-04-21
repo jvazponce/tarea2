@@ -1,0 +1,13 @@
+html * {
+    font-family: $primary-font;
+}
+ 
+body {
+    overflow-x: hidden;
+    padding: 16px 160px;
+    background-color: $black;
+    background-image: url('../img/circles.svg');
+    background-position: bottom -170px right -50px;
+    background-repeat: no-repeat;
+    background-size: 53%;
+} 

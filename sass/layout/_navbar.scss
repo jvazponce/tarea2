@@ -1,0 +1,26 @@
+.nav-principal ul{
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0 56px;
+        list-style-type: none;
+        a{
+            color: $gray;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 400;
+            &:hover{
+                color: $pink;
+                transition-duration: 0.3s;
+                }
+            
+        }
+        a.active{
+                color: white;
+                &:hover{
+                color: $pink;
+                transition-duration: 0.3s;
+                }
+                
+            }
+}

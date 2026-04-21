@@ -1,0 +1,28 @@
+.button{
+    @include button();
+    width: 240px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    a{
+        font-size: 18px;
+        font-weight: 400px;
+        
+        
+    }
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 600px;
+    &:hover{
+        color: $pink;
+        transition-duration: 0.3s;
+    }
+}
